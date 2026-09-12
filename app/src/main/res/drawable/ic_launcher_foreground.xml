@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Reactor ring: bright cyan-to-purple halo behind the ball. -->
+    <path
+        android:pathData="M30,52 a24,24 0 1,1 48,0 a24,24 0 1,1 -48,0 Z M35,52 a19,19 0 1,1 38,0 a19,19 0 1,1 -38,0 Z"
+        android:fillType="evenOdd">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="76"
+                android:startColor="#4DE1FF"
+                android:centerColor="#B388FF"
+                android:endColor="#FF4D9D" />
+        </aapt:attr>
+    </path>
+
+    <!-- Left flipper. -->
+    <path
+        android:pathData="M25.35,84.36 L48.41,69.82 L51.59,74.18 L30.65,91.64 Z"
+        android:fillColor="#FFC23D" />
+    <path
+        android:pathData="M27.4,83.9 L47.6,71.4"
+        android:strokeColor="#B3FFFFFF"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Right flipper. -->
+    <path
+        android:pathData="M82.65,84.36 L59.59,69.82 L56.41,74.18 L77.35,91.64 Z"
+        android:fillColor="#FFC23D" />
+    <path
+        android:pathData="M80.6,83.9 L60.4,71.4"
+        android:strokeColor="#B3FFFFFF"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Chromed pinball. -->
+    <path android:pathData="M38,52a16,16 0,1 1,32 0a16,16 0,1 1,-32 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="24"
+                android:centerX="48"
+                android:centerY="46"
+                android:startColor="#FFFFFFFF"
+                android:centerColor="#FFD3DEEC"
+                android:endColor="#FF3A445E" />
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M46,45a3.4,3.4 0,1 1,6.8 0a3.4,3.4 0,1 1,-6.8 0z"
+        android:fillColor="#F2FFFFFF" />
+</vector>
