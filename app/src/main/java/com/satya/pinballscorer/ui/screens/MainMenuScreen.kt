@@ -31,6 +31,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.satya.pinballscorer.BuildConfig
 import com.satya.pinballscorer.ui.components.RetroButton
 import com.satya.pinballscorer.ui.game.Palette
 import com.satya.pinballscorer.viewmodels.HighScoresViewModel
@@ -89,7 +90,7 @@ fun MainMenuScreen(
         }
 
         Text(
-            text = "v1.4",
+            text = "v${BuildConfig.VERSION_NAME}",
             color = Color(0xFF3E4870),
             fontSize = 11.sp,
             fontWeight = FontWeight.Bold,
